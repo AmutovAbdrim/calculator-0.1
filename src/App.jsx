@@ -1,9 +1,14 @@
+import Result from "./components/Result/Result.jsx";
+import Buttons from "./components/Buttons/Buttons.jsx";
 import "./App.scss";
 
 function App() {
   return (
     <>
-      <h1>Hello World!</h1>
+      <div className="container">
+        <Result />
+        <Buttons />
+      </div>
     </>
   );
 }
