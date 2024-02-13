@@ -1,9 +1,10 @@
-import "./Result.module.scss";
+import styles from "./Result.module.scss";
+import "../../App.jsx";
 
 function Result(props) {
   return (
     <>
-      <span>0</span>
+      <span className={styles.result}>{props.resultValue}</span>
     </>
   );
 }

@@ -1,0 +1,36 @@
+
+.buttonsWrapper{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+
+    .zero{
+        grid-column: span 2;
+    }
+
+    .yel{
+        background-color: #ffa600;
+
+        &:hover{
+            background-color: #ffa600af;
+        }
+    }
+
+    button{
+        width: 100%;
+        padding: 20px;
+        font-size: 28px;
+        border: 1px solid #000000;
+        border-radius: 200px;
+        background-color: #f0f0f0;
+        cursor: pointer;
+
+
+   
+
+
+    &:hover{
+        background-color: #e0e0e0;
+    }
+    }
+}
